@@ -10,12 +10,13 @@ import { VideoSection } from "@/components/video-section";
 import { BlogSection } from "@/components/blog-section";
 import { DownloadApp } from "@/components/download-app";
 
+
 export default function Home() {
   return (
     // Added bg-background to ensure consistent dark theme
     <main className="flex min-h-screen flex-col bg-background">
       <Navbar />
-      
+      <link rel="icon" href="/images/" />
       <Hero /> 
       <Features />
       <EarnRewards />
