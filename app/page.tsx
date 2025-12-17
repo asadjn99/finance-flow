@@ -16,7 +16,6 @@ export default function Home() {
     // Added bg-background to ensure consistent dark theme
     <main className="flex min-h-screen flex-col bg-background">
       <Navbar />
-      <link rel="icon" href="/images/" />
       <Hero /> 
       <Features />
       <EarnRewards />

@@ -30,7 +30,7 @@ export const Features = () => {
         
         {/* Section Header */}
         <div className="w-full lg:w-1/2 flex flex-col items-start">
-          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight mb-2">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 leading-tight">
             Build your crypto portfolio
           </h2>
           <p className="text-gray-400 text-lg">
