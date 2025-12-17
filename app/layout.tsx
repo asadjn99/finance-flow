@@ -3,6 +3,7 @@ import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
+
 const dmSans = DM_Sans({ 
   subsets: ["latin"], 
   weight: ["400", "500", "700"],
@@ -24,9 +25,9 @@ export const metadata: Metadata = {
 
   creator: "Asad Ullah",
   publisher: "Asad Ullah",
-  
+
   icons: {
-    icon: "/icon.png",
+    icon: "/images/icon.png",
   },
 
   openGraph: {
