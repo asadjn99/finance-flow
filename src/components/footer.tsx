@@ -48,12 +48,12 @@ export function Footer() {
             </h3>
 
             <div className="grid grid-cols-2 gap-y-4 gap-x-8 text-sm font-medium">
-              <Link href="#" className="hover:text-primary transition-colors">HOME</Link>
-              <Link href="#" className="hover:text-primary transition-colors">TOKENS</Link>
-              <Link href="#" className="hover:text-primary transition-colors">ABOUT</Link>
-              <Link href="#" className="hover:text-primary transition-colors">BLOG</Link>
-              <Link href="#" className="hover:text-primary transition-colors">PRICING</Link>
-              <Link href="#" className="hover:text-primary transition-colors">CONTACT US</Link>
+              <Link href="/" className="hover:text-primary transition-colors">HOME</Link>
+              <Link href="/tokens" className="hover:text-primary transition-colors">TOKENS</Link>
+              <Link href="/about" className="hover:text-primary transition-colors">ABOUT</Link>
+              <Link href="/blog" className="hover:text-primary transition-colors">BLOG</Link>
+              <Link href="/pricing" className="hover:text-primary transition-colors">PRICING</Link>
+              <Link href="/contact-us" className="hover:text-primary transition-colors">CONTACT US</Link>
             </div>
           </div>
 
