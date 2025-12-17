@@ -18,6 +18,13 @@ export const metadata: Metadata = {
   description:
     "FinanceFlow helps you manage crypto assets, track tokens, and earn rewards securely.",
 
+  authors: [
+    { name: "Asad Ullah", url: "https://asadjn.netlify.app" }
+  ],
+
+  creator: "Asad Ullah",
+  publisher: "Asad Ullah",
+  
   icons: {
     icon: "/icon.png",
   },
@@ -30,7 +37,7 @@ export const metadata: Metadata = {
     siteName: "FinanceFlow",
     images: [
       {
-        url: "/images/og-image.png",
+        url: "/images/logo.png",
         width: 1200,
         height: 630,
         alt: "FinanceFlow Website Preview",
@@ -44,7 +51,7 @@ export const metadata: Metadata = {
     title: "FinanceFlow – Smart Crypto Platform",
     description:
       "Track crypto, manage tokens, and earn rewards with FinanceFlow.",
-    images: ["/images/og-image.png"],
+    images: ["/images/logo.png"],
   },
 };
 
